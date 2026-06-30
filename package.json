@@ -1,0 +1,17 @@
+{
+  "name": "mizbanyar-backend",
+  "version": "1.0.0",
+  "description": "MizbanYar (میزبان‌یار) — zero-dependency Node.js backend for the smart revenue & booking management platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "reseed": "node server.js --reseed"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "keywords": ["mizbanyar", "sqlite", "revenue-management", "iran"],
+  "author": "",
+  "license": "ISC"
+}
